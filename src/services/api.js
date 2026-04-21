@@ -3,6 +3,7 @@ import axios from 'axios';
 const api = axios.create({
     baseURL: import.meta.env.VITE_API_URL
 });
+console.log(import.meta.env.VITE_API_URL);
 
 // Add interceptor for tokens if needed (though AuthContext handles it initially)
 api.interceptors.request.use((config) => {
