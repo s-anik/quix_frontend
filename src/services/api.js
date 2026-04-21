@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: "quixbackend-production.up.railway.app"
+    baseURL: "quixbackend-production.up.railway.app/api"
 });
 console.log(import.meta.env.VITE_API_URL);
 
